@@ -25,7 +25,7 @@ public class PlatformBehaviour : MonoBehaviour
 
     private Color RandomColor()
     {
-        int i = Random.Range(0, 2);
+        int i = Random.Range(0, 3);
         switch(i)
         {
             case 0:

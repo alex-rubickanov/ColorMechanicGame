@@ -6,15 +6,8 @@ using UnityEngine.SceneManagement;
 public class PlayerController : MonoBehaviour
 {
     private Color playerColor;
-    public Color PlayerColor
-    {
-        get => playerColor;
-        set => playerColor = value;
-    }
+    public Color PlayerColor { get { return playerColor; } }
     private SpriteRenderer playerSpriteRenderer;
-    [SerializeField] bool isGreen;
-    [SerializeField] bool isYellow;
-    [SerializeField] bool isRed;
 
 
     private void Start()
