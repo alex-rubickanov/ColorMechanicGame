@@ -17,9 +17,9 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.A)) {
+        if (Input.GetKey(KeyCode.A)) {
             horizontal = -1;
-        } else if (Input.GetKeyDown(KeyCode.D)) {
+        } else if (Input.GetKey(KeyCode.D)) {
             horizontal = 1;
         } else if (Input.GetKeyUp(KeyCode.A) || Input.GetKeyUp(KeyCode.D)) {
             horizontal = 0;
