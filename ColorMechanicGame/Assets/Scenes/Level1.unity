@@ -427,7 +427,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12fe3308d02c1724bb03adf22853d873, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  iLevelToLoad: 3
+  iLevelToLoad: 10
   useIntegerToLoadLevel: 1
 --- !u!114 &163505121
 MonoBehaviour:
